@@ -1,0 +1,51 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai/release.keystore",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai/settings.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai/gradle.properties",
+      "selection": {
+        "end": {
+          "column": 71,
+          "index": 974,
+          "line": 15
+        },
+        "start": {
+          "column": 71,
+          "index": 974,
+          "line": 15
+        }
+      }
+    }
+  ],
+  "projectPath": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai",
+  "selectedFile": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai/gradle.properties"
+}
