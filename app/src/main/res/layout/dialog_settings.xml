@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高级设置"
+        android:textColor="@color/tg_blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="禁止截屏保护"
+            android:textColor="@color/dialog_text_main"
+            android:textSize="16sp"/>
+
+        <Switch
+            android:id="@+id/switch_screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_change_splash_bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="更换启动页背景图"
+        android:textColor="@color/tg_blue"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/dialog_button_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_change_icon"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="切换桌面图标风格"
+        android:textColor="@color/tg_blue"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/dialog_button_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_change_auth"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="修改安全验证方式"
+        android:textColor="@color/tg_blue"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/dialog_button_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_change_effect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="切换页面进场特效"
+        android:textColor="@color/tg_blue"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/dialog_button_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="清除网页缓存数据"
+        android:textColor="@color/tg_blue"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/dialog_button_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="退出应用"
+        android:textColor="@color/dialog_error"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/dialog_button_bg"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 黑夜模式背景色 -->
+    <color name="tg_bg">#17212B</color>
+    <color name="tg_card">#232E3C</color>
+    <color name="tg_blue">#2AABEE</color>
+    <color name="tg_text_sub">#708499</color>
+    <color name="tg_text_main">#FFFFFF</color>
+</resources>

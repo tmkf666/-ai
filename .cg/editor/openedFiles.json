@@ -1,0 +1,21 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 32,
+          "index": 1410,
+          "line": 50
+        },
+        "start": {
+          "column": 32,
+          "index": 1410,
+          "line": 50
+        }
+      }
+    }
+  ],
+  "projectPath": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai",
+  "selectedFile": "/storage/emulated/0/CodeOnTheGoProjects/末辞ai/app/build.gradle.kts"
+}

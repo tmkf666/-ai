@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="action_scan"
+        android:enabled="true"
+        android:icon="@drawable/ic_svg_scan"
+        android:shortcutShortLabel="@string/shortcut_scan">
+        <intent
+            android:action="com.mocitianxia.ai.ACTION_SCAN"
+            android:targetPackage="com.mocitianxia.ai"
+            android:targetClass="com.mocitianxia.ai.LockActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="action_update"
+        android:enabled="true"
+        android:icon="@drawable/ic_svg_loading"
+        android:shortcutShortLabel="@string/shortcut_update">
+        <intent
+            android:action="com.mocitianxia.ai.ACTION_UPDATE"
+            android:targetPackage="com.mocitianxia.ai"
+            android:targetClass="com.mocitianxia.ai.LockActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="action_about"
+        android:enabled="true"
+        android:icon="@drawable/ic_telegram_plane"
+        android:shortcutShortLabel="@string/shortcut_about">
+        <intent
+            android:action="com.mocitianxia.ai.ACTION_ABOUT"
+            android:targetPackage="com.mocitianxia.ai"
+            android:targetClass="com.mocitianxia.ai.LockActivity" />
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主界面浅色 -->
+    <color name="main_bg">#F5F6F8</color>
+    <color name="main_topbar">#FFA726</color>
+    <color name="main_drawer_bg">#FFFFFF</color>
+    <color name="main_text">#333333</color>
+    <color name="main_text_sub">#757575</color>
+    <color name="main_divider">#E0E0E0</color>
+    <color name="main_premium">#FFA726</color>
+
+    <!-- Telegram 深色 -->
+    <color name="tg_bg">#17212B</color>
+    <color name="tg_card">#232E3C</color>
+    <color name="tg_blue">#2AABEE</color>
+    <color name="tg_text_main">#FFFFFF</color>
+    <color name="tg_text_sub">#708499</color>
+
+    <!-- 深色弹窗专用 -->
+    <color name="dialog_bg">#232E3C</color>
+    <color name="dialog_text_main">#E5E7EB</color>
+    <color name="dialog_text_sub">#94A3B8</color>
+    <color name="dialog_button_secondary">#334155</color>
+    <color name="dialog_button_bg">#2C3848</color>
+    <color name="dialog_error">#EF4444</color>
+</resources>
